@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <button id="generate-joke-button">Tell me a space 🌏joke 🚀 </button>
+    <div id="joke">🚀<div>
+    <script src="src/index.js"></script>
+
+
+<head>
+    <title>Joke Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color:rgb(167, 92, 236);
+            background-color: midnightblue;
+            background-image: https://unblast.com/10-free-space-background-images-jpg/;
+        }
+
+        h1 {
+            color: #867a7a;
+        }
+
+        .joke {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #7e5151;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 25%;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <script>
+        function generateJoke() {
+            // Joke data array
+            var jokes = [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Want to hear a construction joke? Oh never mind, I'm still working on that one.",
+                "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!",
+                "What did one hat say to the other hat? You stay here, I'll go on ahead!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            ];
+
+            // Randomly select a joke from the array
+            var randomIndex = Math.floor(Math.random() * jokes.length);
+            var joke = jokes[randomIndex];
+
+            // Display the joke on the page
+            var jokeText = document.getElementById("jokeText");
+            jokeText.textContent = joke;
+        }
+    </script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
