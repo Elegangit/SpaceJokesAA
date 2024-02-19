@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: blueviolet;
+  background-image: https://unblast.com/10-free-space-background-images-jpg/; background-color: midnightblue;
+}
+
+h1 {
+  color: #917f7f;
+}
+
+.joke {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4e2836;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25%;
+}
